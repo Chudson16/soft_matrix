@@ -6,6 +6,8 @@ Soft Matrix upmixes two-channel stereo to surround sound.
 
 fork of GWBasic/soft_matrix. Adding a Cargo.lock file so I can build this reproducibly on nixos
 
+# For Nix instructions, see [NIXOS_README.md](NIXOS_README.md)
+
 ## Goals and Purpose
 
 The goal of Soft Matrix is to provide ideal upmixing of two-channel stereo audio to 5.1 channels. Positioning of sounds are based on their panning between the two channels and the phase difference between two channels.
